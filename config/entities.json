@@ -1,0 +1,45 @@
+{"entities": [{
+    "entity_name": "Email",
+    "value": "anshul@celebal.com",
+    "synonyms": [
+      "anshul@celebal.com"
+    ]
+  },
+{
+    "entity_name": "Display",
+    "value": "Monitor",
+    "synonyms": [
+      "Monitor",
+      "screen",
+      "CRT",
+      "LCD",
+      "Panel"
+    ]
+  },
+  {
+    "entity_name": "Display",
+    "value": "Projector",
+    "synonyms": [
+      "Projector",
+      "White screen"
+    ]
+  },
+  {
+    "entity_name": "Display",
+    "value": "TV",
+    "synonyms": [
+      "TV",
+      "television",
+      "smart screen"
+    ]
+  },
+  {
+    "entity_name": "Display",
+    "value": "display",
+    "synonyms": [
+      "display"
+    ]
+  }
+
+
+]}

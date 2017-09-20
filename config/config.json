@@ -1,0 +1,10 @@
+{
+"data":"config/",
+"model":"/home/anshul/models/",
+"entity_classifier":"elasticsearch",
+"elasticsearch_host":"0.0.0.0",
+"elasticsearch_port": "9200"
+
+}
+
+

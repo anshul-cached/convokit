@@ -1,0 +1,126 @@
+{"intents": [
+    {
+      "intent_name": "Hardware Request",
+      "samples": [
+        {
+          "text": "hello, I require a projector and white screen in auditorium set up till tomm, we would be having executive level meeting.You better not mess it up cuz it is of high priority.Make sure projector connects with windows and mac.",
+          "entity": [
+            {
+              "entity_name": "",
+              "value": ""
+            },
+            {
+              "entity_name": "@Display",
+              "value": "projector"
+            },
+            {
+              "entity_name": "",
+              "value": ""
+            },
+            {
+              "entity_name": "@Display",
+              "value": "white screen"
+            },
+            {
+              "entity_name": "",
+              "value": ""
+            }
+          ]
+        }
+    
+    ],
+    "context_in":"",
+
+    "response":[
+{
+"affected_context":"tell_email",
+"parameters":[
+    {"device":"@Display",
+    "content":"@Display"}
+    ],
+"text_response":[
+"give me your email",
+"tell me your email"
+]
+
+}
+
+ ]
+ },
+
+
+{
+      "intent_name": "get_number",
+      "samples": [
+        {
+          "text": "anshul@celebal.com",
+          "entity": [
+            {
+              "entity_name": "@Email",
+              "value": "anshul@celebal.com"
+            }
+          ]
+        }
+    
+    ],
+"context_in":"tell_email",
+
+    "response":[
+{
+"affected_context":"remember_email",
+"parameters":[
+    {"email":"@Email"}
+    ],
+"text_response":[
+"Great"
+]
+
+}
+
+ ]
+ },
+
+
+
+
+ {
+      "intent_name": "tell_number",
+      "samples": [
+        {
+          "text": "Give me my email id",
+          "entity": [
+            {
+              "entity_name": "",
+              "value": ""
+            }
+          ]
+        }
+    
+    ],
+"context_in":"remember_email",
+
+    "response":[
+{
+"affected_context":"remember_email",
+"parameters":[
+    {"email":"remember_email.email"}
+    ],
+"text_response":[
+"Great"
+]
+
+}
+
+ ]
+ }
+
+
+
+
+
+
+
+
+
+  ]
+  }
